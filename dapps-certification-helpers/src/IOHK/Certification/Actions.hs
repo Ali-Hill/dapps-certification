@@ -70,7 +70,7 @@ generateFlake backend addLogEntry ghAccessTokenM flakeref output = withEvent bac
     hPutStrLn h "      flake = false;"
     hPutStrLn h "    };"
     hPutStrLn h "    dapps-certification = {"
-    hPutStrLn h "      url = \"github:input-output-hk/dapps-certification\";"
+    hPutStrLn h "      url = \"github:Ali-Hill/dapps-certification\";"
     hPutStrLn h "      flake = false;"
     hPutStrLn h "    };"
     hPutStrLn h "  };"
